@@ -1,0 +1,23 @@
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  margin: 2px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+}
+
+.blue {
+  background-color: rgb(48, 86, 156);
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
